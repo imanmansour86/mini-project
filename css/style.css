@@ -1,0 +1,65 @@
+/* Universal selector */
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+/* Header style */
+.header {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+/* Footer style */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 175, 145);
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      display: inline;
+      font-size: 24px;
+      float: left;
+      color: #161418;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+  
+    
+  }
+
+nav {
+background-color: rgb(241, 175, 145);
+  overflow: hidden;
+}
+
+h1{
+    color: darkgoldenrod;
+}
+
+h4{
+    color: black;
+}
+
+input {
+    width: 30%;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+
